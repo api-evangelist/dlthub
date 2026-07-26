@@ -1,9 +1,30 @@
 aid: dlthub
 name: dltHub
-description: 'dltHub is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: data. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  dltHub is the company behind dlt (data load tool), the open-source, Python-first
+  data-loading library that moves data from any source to any destination with
+  automatic schema inference, nested-JSON normalization, incremental loads, and
+  evolving types. On top of the Apache-2.0 library, dltHub ships dlt+ (a commercial
+  framework for productionising pipelines in teams and at scale, with Iceberg and
+  AI workflows) and an agentic platform that deploys, monitors, and scales dlt
+  pipelines. The developer surface is code-first: PyPI packages (dlt, dlt-plus),
+  a rich CLI (dlt init/pipeline/schema/deploy), a first-party MCP server for
+  agentic coding tools, and extensive documentation, tutorials, and a Slack
+  community. dltHub is backed by Bessemer Venture Partners and operates as
+  ScaleVector GmbH.
 url: https://raw.githubusercontent.com/api-evangelist/dlthub/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://dlthub.com/api/og?title=dltHub&kind=default
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Data
+- Data Engineering
+- ETL
+- Data Pipelines
+- Python
+- Open Source
+- Data Integration
+- Agentic
+- MCP
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,46 @@ maintainers:
 common:
 - type: Website
   url: https://dlthub.com/
+- type: DeveloperPortal
+  url: https://dlthub.com/docs
+- type: Documentation
+  url: https://dlthub.com/docs/intro
+- type: APIReference
+  url: https://dlthub.com/docs/reference
+- type: GettingStarted
+  url: https://dlthub.com/docs/tutorial/rest-api
+- type: Blog
+  url: https://dlthub.com/blog
+- type: BlogRSS
+  url: https://dlthub.com/blog/rss.xml
+- type: Support
+  url: https://dlthub.com/community
+- type: GitHubOrganization
+  url: https://github.com/dlt-hub
+- type: Pricing
+  url: https://dlthub.com/pricing
+- type: Login
+  url: https://app.dlthub.com/login
+- type: TermsOfService
+  url: https://dlthub.com/terms
+- type: PrivacyPolicy
+  url: https://dlthub.com/privacy-policy
+- type: Packages
+  url: packages/dlthub-packages.yml
+- type: SDKs
+  url: packages/dlthub-packages.yml
+- type: CLI
+  url: cli/dlthub-cli.yml
+- type: MCPServer
+  url: mcp/dlthub-mcp.yml
+- type: LLMsTxt
+  url: llms/dlthub-llms.txt
+- type: ChangeLog
+  url: changelog/dlthub-changelog.yml
+- type: DomainSecurity
+  url: security/dlthub-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

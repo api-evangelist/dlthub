@@ -1,0 +1,29 @@
+generated: '2026-07-18'
+method: searched
+host: https://dlthub.com
+note: >-
+  Every probed /.well-known/ path returns HTTP 200 but serves the site's SPA
+  HTML soft-404 (content-type text/html, <title>404 page</title>), not a real
+  discovery document. No genuine well-known artifacts are published; recorded as
+  not-found. No WellKnown/SecurityTxt pointer is emitted.
+documents:
+  - path: /.well-known/security.txt
+    status: 200
+    real: false
+    reason: HTML soft-404 (text/html, not RFC 9116 text)
+  - path: /.well-known/openid-configuration
+    status: 200
+    real: false
+    reason: HTML soft-404 (text/html, not OIDC JSON)
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    real: false
+    reason: HTML soft-404 (text/html, not RFC 8414 JSON)
+  - path: /.well-known/api-catalog
+    status: 200
+    real: false
+    reason: HTML soft-404 (text/html, not RFC 9727 JSON)
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    real: false
+    reason: HTML soft-404 (text/html, not ai-plugin JSON)

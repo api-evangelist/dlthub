@@ -1,0 +1,30 @@
+generated: '2026-07-18'
+method: searched
+source: https://pypi.org/project/dlt/
+packages:
+  - language: python
+    registry: pypi
+    name: dlt
+    version: 1.29.0
+    url: https://pypi.org/project/dlt/
+    install: pip install dlt
+    summary: >-
+      Open-source, Python-first scalable data loading library that moves data
+      from any source to any destination with automatic schema inference,
+      nested-JSON normalization, and incremental loads.
+    license: Apache-2.0
+    source_code: https://github.com/dlt-hub/dlt
+    official: true
+  - language: python
+    registry: pypi
+    name: dlt-plus
+    version: 0.17.0
+    url: https://pypi.org/project/dlt-plus/
+    install: pip install dlt-plus
+    summary: >-
+      dlt+ framework for productionising dlt pipelines in teams and at scale,
+      with Iceberg support and AI workflows (dltHub commercial package,
+      dltHub Software EULA).
+    license: dltHub Software EULA
+    docs: https://dlthub.com/docs/plus
+    official: true

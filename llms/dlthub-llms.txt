@@ -1,0 +1,109 @@
+# dlt — data load tool & dltHub
+
+> dlt is the open-source Python library for moving data from any source to any destination. It automatically infers schemas, normalizes nested JSON, handles incremental loads, and evolves types as sources change — so data engineers can ship pipelines in minutes instead of weeks. dltHub extends the library with a managed workspace for building, deploying, and operating pipelines at team scale.
+
+This page follows the [llms.txt convention](https://llmstxt.org) and is a concise, link-first summary aimed at LLMs and agentic coding tools. For a full, auto-generated index of every documentation page — kept in sync on every docs deploy — use the docs llms.txt linked below rather than hand-curating documentation links here.
+
+The marketing, blog, case study, and ecosystem sections below are generated from the dltHub CMS on every deploy/revalidate, so they stay in sync with the website automatically.
+
+## Documentation
+- [dlt docs — full index (llms.txt)](https://dlthub.com/docs/llms.txt): Auto-generated, always up-to-date list of every documentation page. Start here for anything code- or API-related.
+- [dlt docs home](https://dlthub.com/docs/intro): Human-facing docs entry point.
+- [REST API tutorial](https://dlthub.com/docs/tutorial/rest-api): Build a pipeline against any REST API in minutes.
+- [SQL database tutorial](https://dlthub.com/docs/tutorial/sql-database): Load from any SQL database using the dlt SQL source.
+- [Filesystem / object storage tutorial](https://dlthub.com/docs/tutorial/filesystem): Load JSON, JSONL, CSV, and Parquet from S3, GCS, Azure, or local disk.
+
+## Pages
+- [About dltHub](https://dlthub.com/about): Meet the team behind dltHub. We build the infrastructure for AI-native data engineering. Our mission is to make Python practitioners autonomous when they create and use datasets in their organizations.
+- [Blog](https://dlthub.com/blog): See the latest articles from dltHub.
+- [Case Studies | dltHub](https://dlthub.com/case-studies): How do data engineers use dlt (data load tool)? Dive into our case studies to see how data engineering teams solve problems
+- [Contact us](https://dlthub.com/contact): Have questions or want to explore how our paid offerings can help your organization? Our solutions engineers are ready to assist.
+- [Cookie Policy](https://dlthub.com/cookies)
+- [Book a dltHub demo](https://dlthub.com/demo): Book a live dltHub demo. See how agents build, deploy, and run dlt pipelines on dltHub, mapped to your stack.
+- [Data Processing Agreement | dltHub](https://dlthub.com/dpa): Data Processing Agreement between dltHub (ScaleVector GmbH) and Subscribers governing the processing of personal data under GDPR. Effective May 26, 2026.
+- [dltHub Education](https://dlthub.com/education): Self-paced courses and certifications to master dlt, from your first pipeline to advanced production deployments.
+- [dltHub Events](https://dlthub.com/events): Workshops, conferences, meetups, and webinars where the dltHub team is presenting or sponsoring. Browse upcoming events.
+- [dlt Imprint](https://dlthub.com/imprint)
+- [EULA](https://dlthub.com/legal/dlt-plus-eula)
+- [dltHub AI Source Available License](https://dlthub.com/license): The dltHub AI Source Available License governing the use of dltHub AI Workbench and related licensed materials.
+- [Consulting Partner Program](https://dlthub.com/partners/consulting): Join the dltHub Consulting Partner Program. Get co-marketing support, delivery resources, training, and referral opportunities across Gold, Silver, Bronze, and Affiliate tiers.
+- [dlt and Databricks](https://dlthub.com/partners/databricks): Move data to Databricks with dlt, the open-source Python library. Add custom sources, integrate Unity Catalog with Delta and Iceberg, and power your AI workflows.
+- [dltHub and Snowflake](https://dlthub.com/partners/snowflake): 1,000+ companies already load production data into Snowflake with dlt. Agents now build 91% of those pipelines. With dltHub, a single developer can go from writing pipeline code to delivering reports for the business end user in 10 minutes.
+- [dltHub Pricing](https://dlthub.com/pricing): dltHub pricing plans
+- [Privacy Policy | dltHub](https://dlthub.com/privacy-policy): Learn how dltHub collects, uses, and protects your personal information when you use our services.
+- [dlt: the data loading library for Python](https://dlthub.com/product/dlt): dlt (data load tool) is an open source Python library that loads data from often messy data sources into well-structured, live datasets.
+- [Support for dlt and dltHub](https://dlthub.com/product/solutions-engineering): Whether you’re assessing dlt or dltHub, implementing your data platform or ensuring long-term stability, our solutions engineers can provide the support you need every step of the way.
+- [dltHub | Agentic Data Engineering Platform](https://dlthub.com/products/dlthub): dltHub is the agentic platform that deploys, monitors, and scales dlt pipelines. Complete agentic workflows for every phase of data engineering.
+- [Terms of Use | dltHub](https://dlthub.com/terms): dltHub Terms of Use governing access to and use of the dltHub Service by enterprise subscribers.
+
+## Blog
+Most recent 20 posts. Full archive: [dlthub.com/blog](https://dlthub.com/blog) · [RSS](https://dlthub.com/blog/rss.xml).
+- [Productionize Python ETL Scripts: Migrate to dlt & dltHub](https://dlthub.com/blog/productionize-python-etl-scripts): Schema breaks, OOM deaths, duplicate loads, bus factor of one. What it takes to make hand-rolled pipelines production-grade, and what it costs to run them after.
+- [Migrating from Fivetran: how the move actually works](https://dlthub.com/blog/migrate-fivetran-to-dlthub): What does the move do to my bill and my renewal? And how to move?
+- [Consulting is becoming software.](https://dlthub.com/blog/consulting-is-becoming-software): dltHub ships four Migration Blueprints: Python scripts, dlt, Fivetran, and Airbyte to dltHub. LLM-native tooling turns multi-month, senior-only migration projects into weeks of work at a fraction of the cost.
+- [We are launching two dltHub Blueprints for agent spend: Agent Cost & Usage to understand it, Agent Distillation to optimize it](https://dlthub.com/blog/agent-cost-distillation): dltHub launches two Blueprints for agent spend: Agent Cost & Usage to break down what each model, person, and customer costs, and Agent Distillation (with distil labs) to replace expensive agents with cheaper specialist models.
+- [dltHub Blueprints: launch FAQ](https://dlthub.com/blog/blueprints-faq): Answers to the most common questions about dltHub Blueprints: why we are shipping them, why agent spend is hard to measure, how a Blueprint works, and how to get involved.
+- [How I Tracked the Tech Job Market as a Working Student (And What I Found)](https://dlthub.com/blog/tracking-tech-job-market-with-dlt): I analyzed 987 job posts to see what the data job market really wants. Built with dlt + Claude in one conversation, deployed to auto-update every month.
+- [Build vs buy is over. A connector now costs $100 a year.](https://dlthub.com/blog/tco): For the last two decades, saas connector companies told you data meant choosing between “build or buy”. Today, agentic building killed that narrative,
+- [Agents that remember: cognee 1.0 is out](https://dlthub.com/blog/cognee-1-0): cognee 1.0 is live: open-source memory for AI agents, now self-improving, with a Rust core and single-Postgres deployment. Cognee is a dltHub partner that uses dlt under the hood.
+- [What is the dltHub Context Layer?](https://dlthub.com/blog/context): For years, the thing that held a data pipeline together end to end wasn't a tool. It was you. You were the context layer.
+- [The rise of the Semantic engineer](https://dlthub.com/blog/the-rise-of-the-knowledge-engineer): Agents now write the pipelines, models, and dashboards. What they can't write is what your data means. Meet the data role that's emerging: the semantic engineer.
+- [Text-to-SQL is a definition problem: build the canonical model first](https://dlthub.com/blog/canonical-text-to-sql): Text-to-SQL doesn’t break because models can’t write SQL — it breaks because they don’t know what your data means. Write the meaning down first as a canonical knowledge layer, and use that one spec to both build the model and answer questions over it.
+- [The LLM got the right answer for the wrong reason](https://dlthub.com/blog/ontology-benchmark): Schema alone scored 3/10. An ontology scored 10/10. A benchmark across two datasets showing exactly where the gap is, including cases where the model gets the right answer for the wrong reason.
+- [Schema evolution in data pipelines: the engineer's guide](https://dlthub.com/blog/schema-evolution-guide): Schema evolution is a decision every data pipeline makes — most tools make it silently. This post discusses the five common failure modes every data pipeline sees, how dlt handles them, and how you can decide runtime policies for schema evolution with data contracts.
+- [dltHub Named 2026 Snowflake Startup Program Product Partner of the Year](https://dlthub.com/blog/dlthub-2026-snowflake-startup-program-product-partner-of-the-year): At Snowflake Summit 2026, dltHub was named Snowflake’s 2026 Startup Program Product Partner of the Year for helping more than 1,000 organizations bring hard-to-reach data into the Snowflake AI Data Cloud with Python-native, AI-driven pipelines.
+- [From compute hours to data moved: a benchmark series](https://dlthub.com/blog/benchmark-dlthub): You pay for compute hours; what you actually want is data moved. This post measures the exchange rate across the four bottlenecks that dominate real pipelines: SQL copy, REST APIs, JSON files, and Parquet
+- [AI Workbench: Data quality toolkit preview](https://dlthub.com/blog/dq-toolkit-preview): The agent wrote the pipeline, but assumptions slip silently: nulls in primary keys, duplicates from the wrong write disposition, drifted enum values. The dltHub AI Workbench data quality toolkit bootstraps checks from dlt's existing schema, samples columns before any rule ships, writes the checks into your pipeline as decorators, and routes failures back to the toolkit that owns the surface area: ingestion, transformations, or exploration.
+- [dltHub Transformations: what Claude/Codex/Cursor need to model your business](https://dlthub.com/blog/dlthub-transformation-public-preview): In public preview today as part of dltHub. dltHub Transformations turns raw data into the clean tables your business and your agents actually use. Built for a moment when agents now write 9 out of 10 data pipelines.
+- [One runtime, one agentic context, end to end with dltHub Transformations](https://dlthub.com/blog/transformation-deep-dive): Today's stacks split ingestion, transformation, orchestration, and the context that agents need gets lost at every boundary. dltHub Transformations runs ingestion, transformation, lineage, and verification inside the same execution context, so an LLM can reason about your business with the context a senior analyst would have.
+- [We moved in 2 weeks from HubSpot to Attio using dltHub's agentic transformations, here's how](https://dlthub.com/blog/migrate-hubspot-attio): One working student, Claude Code, one stakeholder call, and 2 weeks. The migration worked but the workflow we used is the actual point of this post. AI alone wouldn’t have gotten us there.
+- [Introducing dltHub: Claude/Codex/Cursor-native data engineering](https://dlthub.com/blog/introducing-dlthub): Generally available today. 91% of new dlt pipelines are now built by agents. dltHub makes building and running them production-grade for any Python developer.
+
+## Case studies
+- [dltHub migration services give Navit production-grade data and Chat-BI, without hiring](https://dlthub.com/case-studies/navit): Navit, a ~20-person Berlin-based corporate mobility platform, applied the dltHub AI Workbench ontology toolkit to an existing first-generation pipeline. The team stayed the same size, a generalist now maintains the stack, and Chat-BI on top of the ontology reasons about the business like an analyst would.
+- [Tasman Analytics prototypes a client's data pipeline in a single meeting with dltHub](https://dlthub.com/case-studies/tasman-analytics): Tasman Analytics, a ~20-person data analytics consultancy, uses dltHub to prototype client connectors in real-time — scoping in minutes instead of weeks — and shift from time-and-materials to fixed-price projects.
+- [Powering the Energy Transition: How Vandebron Cut Data Workflow Complexity with dlt](https://dlthub.com/case-studies/vandebron): Vandebron, a Dutch green-energy provider, rebuilt its complex ingestion stack in just one week using dlt, cutting costs, code, and runtime dramatically.
+- [Grocery sensation Erewhon turns cultural buzz into business growth](https://dlthub.com/case-studies/erewhon): A solo data team upskills into more advanced data engineering and finds a robust, reliable solution to data ingestion, building an “enterprise-grade” data operation.
+- [Remerge's journey from manual processes to streamlined pipelines](https://dlthub.com/case-studies/remerge): Learn how Remerge moved away from manual spreadsheets by centralizing their data, creating a reliable single source of truth.
+- [Artsy moves data faster](https://dlthub.com/case-studies/artsy): Artsy transforms their 10-year-old legacy system into a streamlined, customizable solution, dramatically reducing data extraction times.
+- [Flatiron Health accelerates privacy-enhancing data processing](https://dlthub.com/case-studies/flatiron-health): Learn how Flatiron Health cut 50% of their cost of ingestion and transformation pipelines using dlt (data load tool).
+- [How insurance company Dentolo democratizes data access](https://dlthub.com/case-studies/dentolo): Dentolo transforms its data ingestion process, empowers the team with a composable data stack and democratizes data access across the organization.
+- [PostHog offers their users a scalable and inexpensive one-click data warehouse](https://dlthub.com/case-studies/posthog): PostHog builds a scalable, customizable data warehouse that seamlessly handles large datasets, and empowers their team to deliver a flexible and high-performing solution for users.
+- [How Harness transformed 14 data pipelines in 14 days](https://dlthub.com/case-studies/harness): Harness chooses dlt (data load tool) + sqlmesh to create an end-to-end next generation data platform.
+- [Fintech Taktile builds a compliant data platform](https://dlthub.com/case-studies/taktile): How Taktile uses dlt (data load tool) + Snowflake for custom data needs and empowers all software engineers.
+
+## Ecosystem
+- [DataHub](https://dlthub.com/partner/datahub): Open-source metadata platform for the modern data stack.
+- [DuckDB](https://dlthub.com/partner/duckdb): In-process analytical database that's fast, lightweight, and SQL-native. Use as a dlt destination for local development or production analytics — zero infrastructure, parquet-friendly, and schema-evolving by default.
+- [Hugging Face](https://dlthub.com/partner/hugging-face): The collaboration platform for the machine learning community. dltHub's native HuggingFace Hub destination lets you push training-ready datasets directly from any dlt pipeline — schema-enforced, deduplicated, and versioned.
+- [LanceDB](https://dlthub.com/partner/lancedb): Open-source multimodal vector database built for AI. Use dlt with LanceDB as a high-performance storage layer for vectors, images, audio, and structured data — with incremental ingestion, deduplication, and CI/CD-friendly pipelines.
+- [Parallel](https://dlthub.com/partner/parallel): Web research and browsing APIs for AI agents.
+- [Probabl](https://dlthub.com/partner/probabl): Sustained stewardship of scikit-learn and the data science stack.
+- [Snowflake](https://dlthub.com/partner/snowflake-ecosystem): Cloud data warehouse for the AI Data Cloud. dlt loads data into Snowflake with key-pair auth, schema normalization, and warehouse-aware staging — incremental, governed, and ready for analytics workloads.
+- [Temporal](https://dlthub.com/partner/temporal): Durable execution platform for AI and data workflows.
+- [Tower](https://dlthub.com/partner/tower): Tower is a data platform for the next generation of Python-based data and AI apps. Run any Python code on Tower, including dlt pipelines and dlt+ projects.
+- [Untitled Data Company](https://dlthub.com/partner/untitled-data-company): We are a boutique Data Engineering and BI consultancy and help you reduce costs and improve your data stack. We specialize in sustainable and low-cost open-source tools, such as dlt, dbt, Airflow, and Terraform and run on AWS, GCP, and on-prem.
+- [builders;](https://dlthub.com/partner/builders): Top engineering firm for software and data consulting. We specialize in consulting, software development, and building platforms — in days, not months.
+
+## Agentic & LLM workflows
+- [Agentic workflows — toolkits index](https://dlthub.com/agentic-workflows.md): Auto-generated index of Claude Code toolkits (skills, commands, MCP servers) for building dlt pipelines with LLMs.
+- [Agent instructions (AGENTS.md)](https://dlthub.com/AGENTS.md): Starter agent guidance for a dlt workspace — install steps plus the workbench's live rules. Run `dlt ai init` to install the full version-pinned setup locally.
+- [Agent Skills index](https://dlthub.com/.well-known/agent-skills/index.json): Agent Skills Discovery (RFC v0.2.0) index of every dlt skill, each SKILL.md served under `/.well-known/agent-skills/<name>/SKILL.md` with a matching sha256.
+- [MCP Server Card](https://dlthub.com/.well-known/mcp/server-card.json): SEP-1649 discovery card for `dlt-workspace-mcp` — the stdio MCP server shipped by the `dlt` library, with transport command and install instructions.
+- [Cheatsheet](https://dlthub.com/cheatsheet): Quick reference for the most common dlt APIs and patterns.
+
+## Source code
+- [dlt-hub/dlt on GitHub](https://github.com/dlt-hub/dlt): Core library source.
+- [dlt-hub/verified-sources on GitHub](https://github.com/dlt-hub/verified-sources): Community- and dltHub-verified sources.
+- [dlt-hub/dlthub-ai-workbench on GitHub](https://github.com/dlt-hub/dlthub-ai-workbench): Claude Code plugin marketplace for dlt (skills, commands, MCP).
+- [dlt on PyPI](https://pypi.org/project/dlt/): `pip install dlt`.
+
+## Community
+- [Slack community](https://dlthub.com/community): Join the community Slack.
+- [Contact](https://dlthub.com/contact): Reach out to the dltHub team.
+
+## Optional
+- [Sitemap](https://dlthub.com/sitemap.xml): Full page index.
+- [Blog RSS feed](https://dlthub.com/blog/rss.xml): Subscribe to posts.
+- [Privacy policy](https://dlthub.com/privacy-policy)
+- [Imprint](https://dlthub.com/imprint)

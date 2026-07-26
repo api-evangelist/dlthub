@@ -1,0 +1,31 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/dlt-hub/dlt/releases
+scheme: semver
+current_version: 1.29.0
+releases_url: https://github.com/dlt-hub/dlt/releases
+entries:
+  - version: 1.29.0
+    date: '2026-07-13'
+    url: https://github.com/dlt-hub/dlt/releases/tag/1.29.0
+  - version: 1.28.2
+    date: '2026-07-10'
+    url: https://github.com/dlt-hub/dlt/releases/tag/1.28.2
+  - version: 1.28.1
+    date: '2026-06-19'
+    url: https://github.com/dlt-hub/dlt/releases/tag/1.28.1
+  - version: 1.28.0
+    date: '2026-06-15'
+    url: https://github.com/dlt-hub/dlt/releases/tag/1.28.0
+  - version: 1.27.2
+    date: '2026-05-29'
+    url: https://github.com/dlt-hub/dlt/releases/tag/1.27.2
+  - version: 1.27.0
+    date: '2026-05-19'
+    url: https://github.com/dlt-hub/dlt/releases/tag/1.27.0
+  - version: 1.26.0
+    date: '2026-04-28'
+    url: https://github.com/dlt-hub/dlt/releases/tag/1.26.0
+  - version: 1.25.0
+    date: '2026-04-15'
+    url: https://github.com/dlt-hub/dlt/releases/tag/1.25.0

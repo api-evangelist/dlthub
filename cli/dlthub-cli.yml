@@ -1,0 +1,42 @@
+generated: '2026-07-18'
+method: searched
+source: https://dlthub.com/docs/reference/command-line-interface
+name: dlt
+summary: >-
+  First-party command line interface shipped with the dlt Python library for
+  scaffolding, inspecting, deploying, and operating data pipelines.
+install:
+  - method: pip
+    command: pip install dlt
+  - method: pip-extras
+    command: pip install "dlt[cli]"
+    note: deployment features (dlt deploy)
+commands:
+  - name: dlt init
+    purpose: Create a pipeline in the current folder from an existing verified source or a new template.
+  - name: dlt pipeline
+    purpose: Inspect pipeline state, trace, and load packages; provides basic maintenance.
+    subcommands:
+      - { name: info, purpose: Display pipeline state and working directory contents }
+      - { name: show, purpose: Launch the workspace dashboard with load status and data explorer }
+      - { name: failed-jobs, purpose: Show failed loads and their error messages }
+      - { name: drop-pending-packages, purpose: Delete extracted and normalized packages }
+      - { name: sync, purpose: Reset local pipeline state while preserving destination data }
+      - { name: trace, purpose: Show the last run trace with timing and step details }
+      - { name: schema, purpose: Display the default pipeline schema }
+      - { name: drop, purpose: Selectively remove tables and reset associated state }
+      - { name: load-package, purpose: Display information on a specific load package }
+      - { name: mcp, purpose: Launch an MCP server attached to this pipeline }
+  - name: dlt schema
+    purpose: Show, convert, and upgrade schemas.
+  - name: dlt deploy
+    purpose: Create a deployment package for a selected pipeline script.
+    subcommands:
+      - { name: github-action, purpose: Deploy the pipeline to GitHub Actions with cron scheduling }
+      - { name: airflow-composer, purpose: Deploy the pipeline to Google Cloud Composer / Airflow }
+  - name: dlt telemetry
+    purpose: Show telemetry status.
+  - name: dlt dashboard
+    purpose: Show the dltHub workspace dashboard.
+  - name: dlthub ai
+    purpose: AI / agent tooling (formerly `dlt ai`); requires `pip install dlt[hub]`.
