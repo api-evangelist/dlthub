@@ -6,15 +6,16 @@ server:
   name: dlt
   transport: stdio
   launch: dlt pipeline <pipeline_name> mcp
-  note: >-
-    First-party MCP (Model Context Protocol) server shipped with the dlt library.
-    Launched locally via the CLI and attached to a specific pipeline so agentic
-    coding tools (Claude, Cursor, Codex) can inspect pipeline state, schemas, and
-    traces. dltHub markets an agent-native workflow ("91% of new dlt pipelines are
-    built by agents"); the MCP server is the local bridge into that workflow.
+  note: First-party MCP (Model Context Protocol) server shipped with the dlt library. Launched locally
+    via the CLI and attached to a specific pipeline so agentic coding tools (Claude, Cursor, Codex) can
+    inspect pipeline state, schemas, and traces. dltHub markets an agent-native workflow ("91% of new
+    dlt pipelines are built by agents"); the MCP server is the local bridge into that workflow.
 tools: []
-tools_note: >-
-  Tool surface is exposed dynamically per attached pipeline and is not published
-  as a fixed manifest; not enumerated here to avoid fabrication. Verified via the
-  `dlt pipeline ... mcp` command ("Launch mcp server attached to this pipeline")
-  in the official CLI reference.
+tools_note: Tool surface is exposed dynamically per attached pipeline and is not published as a fixed
+  manifest; not enumerated here to avoid fabrication. Verified via the `dlt pipeline ... mcp` command
+  ("Launch mcp server attached to this pipeline") in the official CLI reference.
+deployment:
+  mode: local-stdio
+  verified: searched
+  checked: '2026-08-12'
+  source: catalog MCP census
