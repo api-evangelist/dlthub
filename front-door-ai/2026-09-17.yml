@@ -1,0 +1,32 @@
+# Front Door AI Index — dlthub — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: dlthub
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: dlthub.com
+  final_host: dlthub.com
+  ownership: own
+  owner: dlthub
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 29
+  host_score: 29
+  density: 15.87
+  words: 1827
+  tiers:
+    agentic: 13
+    core: 13
+    model: 3
+  ambiguous: 15
+  top_terms:
+    agent: 14
+    AI: 11
+    agentic: 11
+    Claude: 3
+    machine learning: 2
+    automation: 1
+    inference: 1
+    prompts: 1
