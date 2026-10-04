@@ -52,9 +52,9 @@ tags:
 - ETL
 - Data Pipeline
 - Python
-- Open-Source
+- Open Source
 - Data Integration
-- Agentic
+- AI Agents
 - MCP
 tags_raw:
 - Company
@@ -67,6 +67,7 @@ tags_raw:
 - Data Integration
 - Agentic
 - MCP
+- Open-Source
 apis: []
 maintainers:
 - FN: Kin Lane
